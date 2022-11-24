@@ -1,0 +1,80 @@
+
+BATCH_SIZE = 200
+RNN_SIZE = 400
+EMBED_SIZE = 200 
+EPOCHS = 100
+MAX_SENT_LENGTH = 7
+
+PUNCTUATION = .!?,
+
+
+Script started on 2021-04-30 08:38:03-0500
+
+
+Human :hello
+Bot :hello
+
+Human :how are you?
+Bot :hello, <UNK> <EOS>
+
+Human :how are you 
+Bot :i know. <UNK> <EOS>
+
+Human :where are you from ?
+Bot :no... i got him. <EOS>
+
+Human :tell me something funny
+Bot :i never job. <EOS>
+
+Human :I like this !
+Bot :half is sure? <EOS>
+
+Human :sure of what ?
+Bot :a special <UNK> <EOS>
+
+Human :are you special ?
+Bot :i am <UNK> <EOS>
+
+Human :glad to hear it
+Bot :all luck? <EOS> ma
+
+Human :I don't think so
+Bot :<UNK> from hell. <EOS>
+
+Human :not really
+Bot :a hair.
+
+Human :tell me more
+Bot :i cannot. <EOS>
+
+Human :have fun tonight
+Bot :any night? <EOS>
+
+Human :sure
+Bot :at
+
+Human :You got something on your mind ?
+Bot :so do you got <UNK> youre then.
+
+Human :forget it
+Bot :government baby.
+
+Human :Can we go now ?
+Bot :where do you go? <EOS>
+
+Human :To school
+Bot :no really?
+
+Human :for real
+Bot :for <UNK>
+
+Human :see ya
+Bot :see you!
+
+Human :goodbye
+Bot :so
+
+Human :q
+Bot :mister
+
+Script done on 2021-04-30 08:48:46-0500

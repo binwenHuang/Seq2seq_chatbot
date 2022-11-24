@@ -1,0 +1,67 @@
+BATCH_SIZE = 128
+RNN_SIZE = 128
+EMBED_SIZE = 128 
+EPOCHS = 700
+MAX_SENT_LENGTH = 5
+
+Human :hello
+Bot :hello
+
+Human :how are you
+Bot :very fine <EOS>
+
+Human :where are you from
+Bot :southern california <EOS>
+
+Human :i like it !
+Bot :let's get it <EOS>
+
+Human :tell me something funny
+Bot :bye a lot <EOS>
+
+Human :what do you think
+Bot :i am in <EOS>
+
+Human :do you speak another language ?
+Bot :no not much not be <EOS>
+
+Human :what's the plan ?
+Bot :just let furtwngler <EOS>
+
+Human :See you next week !
+Bot :you <EOS>
+
+Human :my point exactly
+Bot :what happened <EOS>
+
+Human :that's great !
+Bot :what way <EOS>
+
+Human :how much
+Bot :ten bucks
+
+Human :is that right ?
+Bot :she is fine <EOS>
+
+Human :What kind of food do you like ?
+Bot :so do i do not say so <EOS>
+
+Human :Is there a problem ?
+Bot :you know what i <EOS>
+
+Human :okay, okay
+Bot :fresh
+
+Human :I was bored by war and peace
+Bot :his parents for people <EOS>
+
+Human :it's been nice talking to you 
+Bot :that is that that is <EOS>
+
+Human :i gotta go
+Bot :will you <EOS>
+
+Human :goodbye
+Bot :no
+
+

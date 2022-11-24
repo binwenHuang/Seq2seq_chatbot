@@ -1,0 +1,70 @@
+
+BATCH_SIZE = 500
+RNN_SIZE = 500
+EMBED_SIZE = 500 
+EPOCHS = 100
+MAX_SENT_LENGTH = 7
+
+PUNCTUATION = .!?,
+
+
+Script started on 2021-04-27 22:35:59-0500
+[4mukko[24m:[1m~/Research/Chatbot[0m% python3 chat.py
+Type you message : hello
+Human :hello
+Bot :get
+Type you message : how are you ?
+Human :how are you ?
+Bot :oh, yes, sir. <EOS>
+Type you message : how are you 
+Human :how are you 
+Bot :i almost know. <EOS>
+Type you message : I like this !
+Human :I like this !
+Bot :yes, yes, ! <EOS>
+Type you message : So glad you like it too !
+Human :So glad you like it too !
+Bot :<UNK> <UNK> shut up here to? <EOS>
+Type you message : Where are you from ?
+Human :Where are you from ?
+Bot :<UNK> left me more. <EOS>
+Type you message : tell me a joke
+Human :tell me a joke
+Bot :wait, you away. <EOS>
+Type you message : roger that
+Human :roger that
+Bot :one. jesus.
+Type you message : are you religious ?
+Human :are you religious ?
+Bot :yes, yes, sir. <EOS>
+Type you message : Tell me more.  .
+Human :Tell me more .
+Bot :tell me see. <EOS>
+Type you message : see
+Human :see
+Bot :thinking.
+Type you message : What are you thinking about?
+Human :What are you thinking about?
+Bot :i know. i daughter. <EOS>
+Type you message : Daughter of who ?
+Human :Daughter of who ?
+Bot :the <UNK> huh? <EOS>
+Type you message : you must be proud
+Human :you must be proud
+Bot :i am trying, <EOS>
+Type you message : shame on you !
+Human :shame on you !
+Bot :i am alright. <EOS>
+Type you message : that's right
+Human :that's right
+Bot :mercy <EOS>
+Type you message : goodbye
+Human :goodbye
+Bot :i
+Type you message : q
+Human :q
+Bot :mister
+[4mukko[24m:[1m~/Research/Chatbot[0m% exit
+exit
+
+Script done on 2021-04-27 22:46:16-0500
